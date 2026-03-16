@@ -117,7 +117,7 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
               className="bg-[var(--themeColor_2)] text-[var(--textColor_4)] px-3 py-2 rounded hover:bg-[var(--themeColor_2_light)] transition-colors cursor-pointer text-sm"
               onClick={() => {
-                const cvUrl = "/resume/Sardaar_Niamotullah-CV.pdf";
+                const cvUrl = "/resume/sardaar_niamotullah-CV.pdf";
                 const link = document.createElement("a");
                 link.href = cvUrl;
                 link.download = "Sardaar_Niamotullah-CV.pdf";
@@ -245,7 +245,7 @@ export default function Hero() {
                   whileTap={{ scale: 0.95 }}
                   className="bg-[var(--themeColor_2)] text-[var(--textColor_4)] px-4 py-2 rounded hover:bg-[var(--themeColor_2_light)] transition-colors cursor-pointer text-sm"
                   onClick={() => {
-                    const cvUrl = "/resume/Sardaar_Niamotullah-CV.pdf";
+                    const cvUrl = "/resume/sardaar_niamotullah-CV.pdf";
                     const link = document.createElement("a");
                     link.href = cvUrl;
                     link.download = "Sardaar_Niamotullah-CV.pdf";
