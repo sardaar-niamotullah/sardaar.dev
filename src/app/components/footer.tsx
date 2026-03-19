@@ -5,9 +5,8 @@ import Link from "next/link";
 
 export default function Footer() {
   const navLinks = [
-    // { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
-    { name: "Education", href: "#Education" },
+    { name: "Education", href: "#education" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];

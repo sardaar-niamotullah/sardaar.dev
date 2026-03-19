@@ -126,7 +126,7 @@ export default function Header() {
                   key={link.name}
                   href={link.href}
                   onClick={toggleMenu}
-                  className="border-b border-[var(--textColor_2)] px-1 py-1 text-[var(--textColor_3)] hover:text-[var(--textColor_3)] text-2xl font-medium transition-colors text-sm uppercase tracking-wider"
+                  className="border-b border-[var(--textColor_2)] px-1 py-1 text-[var(--textColor_3)] hover:text-[var(--textColor_3)] font-medium transition-colors text-sm uppercase tracking-wider"
                 >
                   {link.name}
                 </Link>

@@ -10,20 +10,20 @@ import {
 } from "../utils/animations";
 
 export default function Experience() {
-  const getDurationInMonths = (startDate: string, endDate?: string): string => {
-    const start = new Date(startDate);
-    const end = endDate ? new Date(endDate) : new Date();
+  // const getDurationInMonths = (startDate: string, endDate?: string): string => {
+  //   const start = new Date(startDate);
+  //   const end = endDate ? new Date(endDate) : new Date();
 
-    const yearDiff = end.getFullYear() - start.getFullYear();
-    const monthDiff = end.getMonth() - start.getMonth();
+  //   const yearDiff = end.getFullYear() - start.getFullYear();
+  //   const monthDiff = end.getMonth() - start.getMonth();
 
-    const totalMonths = yearDiff * 12 + monthDiff + 1;
+  //   const totalMonths = yearDiff * 12 + monthDiff + 1;
 
-    if (totalMonths === 1) return "1 month";
-    return `${totalMonths} months`;
-  };
+  //   if (totalMonths === 1) return "1 month";
+  //   return `${totalMonths} months`;
+  // };
 
-  const totalDurationText = getDurationInMonths("2025-07-31");
+  // const totalDurationText = getDurationInMonths("2025-07-31");
 
   return (
     <section id="experience" className="w-full py-24">
@@ -88,10 +88,11 @@ export default function Experience() {
                   {/* Right side - Dates */}
                   <div className="text-right text-sm">
                     <p className="text-[var(--textColor_3)] font-semibold mb-1">
-                      Jul 2025 – Present
+                      Jul 2025 – Mar 2026
                     </p>
                     <p className="text-[var(--textColor_2)] text-xs">
-                      {totalDurationText}
+                      9 months
+                      {/* {totalDurationText} */}
                     </p>
                   </div>
                 </motion.div>
@@ -104,22 +105,26 @@ export default function Experience() {
                     className="flex items-start"
                   >
                     {/* Timeline Bullet + Line */}
-                    <div className="flex flex-col items-center mr-4 ml-5">
+                    {/* <div className="flex flex-col items-center mr-4 ml-5">
                       <div className="w-2 h-2 bg-[var(--themeColor_2)] rounded-full mt-2"></div>
                       <div className="w-px flex-1 bg-[var(--themeColor_2)]/30 mt-2"></div>
+                    </div> */}
+                    {/* Timeline Bullet */}
+                    <div className="flex flex-col items-center mr-4 ml-5">
+                      <div className="w-2 h-2 bg-[var(--themeColor_2)]/60 rounded-full mt-2"></div>
                     </div>
 
                     {/* Timeline Content */}
                     <div className="flex-1 pb-6">
                       <h4 className="text-[var(--textColor_3)] text-base font-semibold mb-1">
-                        Associate Mobile App Developer
+                        Associate Software Engineer
                       </h4>
                       <p className="text-[var(--textColor_3)] text-sm mb-2">
-                        Sep 2025 – Present • {getDurationInMonths("2025-09-01")}
+                        Sep 2025 – Mar 2026 • 7 months
+                        {/* {getDurationInMonths("2025-09-01")} */}
                       </p>
                       <p className="text-[var(--themeColor_2)] text-sm mb-3">
-                        [Dart, Flutter, Firebase, Supabase, APIs,
-                        Figma]
+                        [Dart, Flutter, Firebase, Supabase, APIs, Figma]
                       </p>
                       <ul className="list-disc list-inside text-[var(--textColor_3)] text-sm leading-relaxed space-y-2 ml-4">
                         <li>
@@ -130,8 +135,7 @@ export default function Experience() {
                         <li>
                           Collaborating with the team to design and implement
                           responsive, pixel-perfect UIs from Figma, while
-                          integrating REST APIs, Google Maps, and other
-                          location-based services.
+                          integrating REST APIs, and other services.
                         </li>
                       </ul>
                     </div>
@@ -150,7 +154,7 @@ export default function Experience() {
                     {/* Timeline Content */}
                     <div className="flex-1 pb-2">
                       <h4 className="text-[var(--textColor_3)] text-base font-semibold mb-1">
-                        Intern Mobile App Developer
+                        Software Engineer Intern
                       </h4>
                       <p className="text-[var(--textColor_3)] text-sm">
                         Jul 2025 – Aug 2025 • 2 months

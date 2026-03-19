@@ -30,7 +30,27 @@ const projects: Project[] = [
     github: "",
     demo: "",
     live: "https://verbie.co.uk/",
-    image: "/project-snapshots/verbie.png",
+    image: "/project-snapshots/verbie_web.png",
+  },
+  {
+    title: "Simple Expense Tracker",
+    description:
+      "The Expense Tracker App is a simple yet powerful tool designed to help you manage your personal finances with ease.",
+    tech: ["Dart", "Flutter", "GetX", "Supabase", "SQLite"],
+    github: "",
+    demo: "",
+    live: "https://play.google.com/store/apps/details?id=com.inshirahtech.simple_expense_tracker",
+    image: "/project-snapshots/simple_expense_tracker_logo.png",
+  },
+  {
+    title: "Floating Tasbih",
+    description:
+      "This app gives you the ability to put a floating counter on the screen which lets you do zhikr even when you are browsing other apps.",
+    tech: ["Dart", "Flutter", "GetX", "Supabase", "SQLite"],
+    github: "",
+    demo: "",
+    live: "https://play.google.com/store/apps/details?id=com.floating.tasbih.counter.app",
+    image: "/project-snapshots/floating_tasbih.png",
   },
   {
     title: "Dllalna",
@@ -43,14 +63,14 @@ const projects: Project[] = [
     image: "/project-snapshots/dllalna.png",
   },
   {
-    title: "Routivise",
+    title: "100 Days of SwiftUI",
     description:
-      "Routivise is a fitness app that keeps track of users' daily goals, exercises, and eating habits. It also provides personalized suggestions from a built-in AI to help users stay consistent with their fitness journey.",
-    tech: ["Dart", "Flutter", "Generative AI", "Supabase", "GetX"],
-    github: "",
+      "This repository documents my journey of learning SwiftUI by building 19 projects over 100 days, following the 100 Days of SwiftUI challenge.",
+    tech: ["Swift", "SwiftUI"],
+    github: "https://github.com/sardaar-niamotullah/100_Days_Of_SwiftUI",
     demo: "",
     live: "",
-    image: "/project-snapshots/routivise.png",
+    image: "/project-snapshots/hdswiftui2.png",
   },
   {
     title: "Ai Tutor",
@@ -69,7 +89,7 @@ const projects: Project[] = [
       "Python",
       "Django",
     ],
-    github: "https://github.com/sardaarNiamotullah/Ai_Tutor",
+    github: "https://github.com/sardaar-niamotullah/Ai_Tutor",
     demo: "",
     live: "",
     image: "/project-snapshots/ai_tutor.png",
@@ -89,7 +109,7 @@ const projects: Project[] = [
       "Postgres",
       "Prisma",
     ],
-    github: "https://github.com/sardaarNiamotullah/ai_chatbot",
+    github: "https://github.com/sardaar-niamotullah/ai_chatbot",
     demo: "",
     live: "",
     image: "/project-snapshots/chatbot.png",
@@ -100,7 +120,7 @@ const projects: Project[] = [
       "Team_Task_Management-MobileApp is a personal mobile app project built using Flutter and Dart. It helps users manage their daily tasks and assign them to others with ease. The backend is powered by ExpressJS, which handles the API endpoints efficiently, and PostgreSQL is used for storing all task-related data reliably. This setup ensures quick response times and a stable data layer for both solo and collaborative task management.",
     tech: ["Flutter", "Dart", "Material UI", "ExpressJS", "NodeJS", "Postgres"],
     github:
-      "https://github.com/sardaarNiamotullah/Team_Task_Management-MobileApp",
+      "https://github.com/sardaar-niamotullah/Team_Task_Management-MobileApp",
     demo: "",
     live: "",
     image: "/project-snapshots/teamtaskmanager.png",
@@ -120,29 +140,10 @@ const projects: Project[] = [
       "Postgres",
       "Prisma",
     ],
-    github: "https://github.com/sardaarNiamotullah/chatApp",
+    github: "https://github.com/sardaar-niamotullah/Chat_App",
     demo: "",
     live: "",
     image: "/project-snapshots/chatapp.png",
-  },
-  {
-    title: "AItinerary",
-    description:
-      "AItinerary is an AI-powered travel itinerary builder that generates personalized, weather-aware day-wise travel plans. Users provide a city and a travel date, and the app uses real-time weather data and the Groq API to generate intelligent itineraries. The project showcases full-stack development with Django REST API and a React frontend, emphasizing clean design and effective prompt engineering.",
-    tech: [
-      "Vite",
-      "ReactJS",
-      "TailwindCSS",
-      "Motion",
-      "Axios",
-      "Django",
-      "Groq API",
-      "Weather API",
-    ],
-    github: "https://github.com/sardaarNiamotullah/AItinerary",
-    demo: "",
-    // live: "https://travel-aitinerary.vercel.app/",
-    image: "/project-snapshots/aitinerary.png",
   },
 ];
 
@@ -281,26 +282,15 @@ const renderActionButtons = (project: Project, isMobile: boolean = false) => {
             className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-[var(--themeColor_2)]/0 border border-[var(--themeColor_2)]/30 text-[var(--textColor_3)] hover:bg-[var(--themeColor_2)]/0 transition-all w-full"
           >
             <svg
-              fill="#7b77f7"
+              fill="#FFFFFF"
               width="24"
               height="24"
-              viewBox="0 0 96 96"
+              viewBox="0 0 32 32"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M38.251 9.482c-40.067 11.274-39.759 66.555.429 77.023 3.157.822 7.446 1.495 9.53 1.495H52V77.2c0-11.691-.582-13.2-5.095-13.2-2.414 0-2.735-.417-3.076-4l-.382-4H52v-8H36v-4c0-3.376.322-4 2.066-4C42.505 40 44 38.228 44 32.965V28h4.566c3.772 0 7.455-1.017 9.276-2.561.188-.16.896-1.9 1.573-3.869l1.23-3.578 4.73 3.133C73.436 26.464 80 37.398 80 45.485c0 3.16 6.71 9.433 7.603 7.108 1.947-5.076-2.032-20.27-7.305-27.892C71.647 12.199 52.817 5.383 38.251 9.482m-1.382 8.423c-5.683 2.223-10.863 6.088-14.432 10.767l-2.698 3.537 4.13 4.131L28 40.471v-3.036C28 33.655 29.583 32 33.2 32c2.645 0 2.8-.245 2.8-4.429C36 21.339 37.693 20 45.571 20 51.333 20 52 19.793 52 18c0-2.661-8.436-2.714-15.131-.095m-20.46 24.47c-1.154 3.01.235 14.032 2.381 18.883 3.638 8.224 13.362 16.084 22.46 18.154 4.286.975 4.177-6.578-.12-8.358C37.959 69.74 36 66.353 36 62.183c0-3.78-18.546-22.531-19.591-19.808M60 60.027v19.214l4.555-3.732c2.505-2.053 4.704-3.57 4.885-3.371.182.199 2.013 4.253 4.069 9.01l3.737 8.647 3.627-1.505c1.995-.828 3.939-1.693 4.32-1.922.381-.228-1.081-4.275-3.25-8.991C79.774 72.66 78 68.621 78 68.4c0-.22 2.354-.4 5.23-.4h5.23l-9.48-9.572c-5.214-5.265-11.618-11.382-14.23-13.593L60 40.814v19.213"
-                  fillRule="evenodd"
-                ></path>
-              </g>
+              <path d="M10.406 13.406l2.5-2.531c0.219-0.219 0.469-0.5 0.719-0.813 0.25-0.281 0.531-0.531 0.813-0.75 0.531-0.469 1.156-0.875 1.938-0.875 0.688 0 1.281 0.313 1.719 0.719s0.688 1 0.688 1.688c0 0.281-0.031 0.594-0.125 0.813-0.219 0.438-0.406 0.75-0.594 1-0.094 0.125-0.188 0.25-0.188 0.375 0 0.094 0 0.188 0.063 0.219 0.344 0.844 0.594 1.563 0.75 2.438 0.094 0.344 0.281 0.5 0.594 0.5 0.125 0 0.25-0.031 0.375-0.125 0.25-0.156 0.469-0.406 0.688-0.656 0.125-0.125 0.219-0.25 0.281-0.313 1.125-1.094 1.781-2.656 1.781-4.25 0-1.688-0.688-3.188-1.781-4.281-1.094-1.063-2.625-1.781-4.25-1.781s-3.188 0.656-4.281 1.813l-4.281 4.25c-1.125 1.156-1.75 2.656-1.75 4.25 0 0.469 0.188 1.438 0.5 2.344 0.313 0.875 0.719 1.656 1.25 1.656 0.281 0 0.875-0.469 1.375-1s1-1.125 1-1.344c0-0.156-0.125-0.344-0.25-0.625-0.156-0.281-0.219-0.625-0.219-1.031 0-0.625 0.25-1.25 0.688-1.688zM10.313 25.406l4.281-4.25c1.125-1.094 1.75-2.688 1.75-4.281 0-0.469-0.188-1.406-0.5-2.313-0.281-0.875-0.719-1.688-1.25-1.688-0.219 0-0.875 0.5-1.344 1.031-0.531 0.531-1.031 1.094-1.031 1.313 0 0.156 0.094 0.406 0.25 0.656 0.156 0.281 0.281 0.594 0.281 1-0.031 0.625-0.281 1.25-0.719 1.75l-2.531 2.5c-0.219 0.25-0.469 0.5-0.719 0.781l-0.781 0.781c-0.531 0.5-1.188 0.844-1.969 0.844-1.313 0-2.375-1.031-2.375-2.375 0-0.313 0.063-0.594 0.156-0.813 0.188-0.438 0.375-0.75 0.594-1 0.094-0.125 0.125-0.25 0.125-0.344 0-0.063-0.031-0.125-0.063-0.25-0.375-0.844-0.594-1.563-0.75-2.438-0.063-0.156-0.094-0.281-0.188-0.344-0.094-0.125-0.25-0.156-0.406-0.156-0.125 0-0.219 0.031-0.344 0.125-0.25 0.156-0.5 0.406-0.719 0.656-0.094 0.125-0.219 0.219-0.281 0.281-1.125 1.125-1.781 2.688-1.781 4.281 0 1.656 0.656 3.188 1.781 4.281 1.094 1.094 2.594 1.75 4.25 1.75 1.625 0 3.188-0.625 4.281-1.781z" />
             </svg>
-            <span>Visit Site</span>
+            <span>Project Link</span>
           </Link>
         </motion.div>
       )}

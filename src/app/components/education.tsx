@@ -115,7 +115,8 @@ export default function Education() {
                     Session
                   </p>
                   <p className="text-[var(--textColor_3)]">
-                    Summer &apos;19 - Fall &apos;24
+                    {/* Summer &apos;19 - Fall &apos;24 */}
+                    Class of 2025
                   </p>
                 </div>
               </motion.div>
