@@ -6,9 +6,10 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const phrases = [
+  "Software Engineer - Mobile",
   "Flutter & Native iOS Developer",
-  "Dart, Flutter, Swift, SwiftUI, Python, Django",
-  "SQL, NoSQL, Supabase, Firebase",
+  "Dart, Flutter, Swift, SwiftUI",
+  "SQL, NoSQL, Firebase, Supabase",
 ];
 
 // ── Shared sub-components ──────────────────────────────────────────────────────

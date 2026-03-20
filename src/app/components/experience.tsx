@@ -78,7 +78,7 @@ export default function Experience() {
                   {/* Left side - Organization */}
                   <div>
                     <h3 className="text-[var(--textColor_3)] text-lg font-semibold mb-1">
-                      InShirah Tech
+                      Inshirah Tech
                     </h3>
                     <p className="text-[var(--textColor_2)] text-sm">
                       Full Time • Remote
@@ -123,7 +123,7 @@ export default function Experience() {
                         Sep 2025 – Mar 2026 • 7 months
                         {/* {getDurationInMonths("2025-09-01")} */}
                       </p>
-                      <p className="text-[var(--themeColor_2)] text-sm mb-3">
+                      {/* <p className="text-[var(--themeColor_2)] text-sm mb-3">
                         [Dart, Flutter, Firebase, Supabase, APIs, Figma]
                       </p>
                       <ul className="list-disc list-inside text-[var(--textColor_3)] text-sm leading-relaxed space-y-2 ml-4">
@@ -137,7 +137,7 @@ export default function Experience() {
                           responsive, pixel-perfect UIs from Figma, while
                           integrating REST APIs, and other services.
                         </li>
-                      </ul>
+                      </ul> */}
                     </div>
                   </motion.div>
 
@@ -154,7 +154,7 @@ export default function Experience() {
                     {/* Timeline Content */}
                     <div className="flex-1 pb-2">
                       <h4 className="text-[var(--textColor_3)] text-base font-semibold mb-1">
-                        Software Engineer Intern
+                        Trainee Software Engineer
                       </h4>
                       <p className="text-[var(--textColor_3)] text-sm">
                         Jul 2025 – Aug 2025 • 2 months
