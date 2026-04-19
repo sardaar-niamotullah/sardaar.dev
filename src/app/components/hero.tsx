@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const phrases = [
-  "Software Engineer - Mobile",
-  "Flutter & Native iOS Developer",
-  "Dart, Flutter, Swift, SwiftUI",
+  "Software Engineer",
+  "Dart, JavaScript, TypeScript, Python",
+  "Flutter, ReactJS, NextJS",
   "SQL, NoSQL, Firebase, Supabase",
 ];
 
