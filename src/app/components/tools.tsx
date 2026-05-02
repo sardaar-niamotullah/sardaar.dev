@@ -29,8 +29,15 @@ const skillCategories = [
     ),
   },
   {
-    title: "Frameworks",
-    skills: ["Flutter", "ReactJS", "NextJS"],
+    title: "Frameworks and Libraries",
+    skills: [
+      "Flutter",
+      "Bloc",
+      "GetX",
+      "Go router",
+      "Shared preferences",
+      "http",
+    ],
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

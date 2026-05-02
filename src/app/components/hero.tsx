@@ -6,10 +6,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const phrases = [
-  "Software Engineer",
-  "Dart, JavaScript, TypeScript, Python",
-  "Flutter, ReactJS, NextJS",
-  "SQL, NoSQL, Firebase, Supabase",
+  "Software Engineer - Mobile",
+  "Dart, Flutter, Firebase, Supabase",
 ];
 
 // ── Shared sub-components ──────────────────────────────────────────────────────
