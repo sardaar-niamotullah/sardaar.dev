@@ -88,10 +88,10 @@ export default function Experience() {
                   {/* Right side - Dates */}
                   <div className="text-right text-sm">
                     <p className="text-[var(--textColor_3)] font-semibold mb-1">
-                      Jul 2025 – Mar 2026
+                      Jul 2025 – Feb 2026
                     </p>
                     <p className="text-[var(--textColor_2)] text-xs">
-                      9 months
+                      8 months
                       {/* {totalDurationText} */}
                     </p>
                   </div>
@@ -120,7 +120,7 @@ export default function Experience() {
                         Associate Mobile App Developer
                       </h4>
                       <p className="text-[var(--textColor_3)] text-sm mb-2">
-                        Sep 2025 – Mar 2026 • 7 months
+                        Sep 2025 – Feb 2026 • 6 months
                         {/* {getDurationInMonths("2025-09-01")} */}
                       </p>
                       <p className="text-[var(--themeColor_2)] text-sm mb-3">
