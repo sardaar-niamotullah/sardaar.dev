@@ -33,9 +33,10 @@ const skillCategories = [
     skills: [
       "Flutter",
       "Bloc",
-      "GetX",
+      "Get it",
       "Go router",
       "Shared preferences",
+      "GetX",
       "http",
     ],
     icon: (
