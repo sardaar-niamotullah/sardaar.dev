@@ -36,7 +36,6 @@ const skillCategories = [
       "http",
       "GetX",
       "Get it",
-      "Camera",
       "Go router",
       "File picker",
       "Image picker",
