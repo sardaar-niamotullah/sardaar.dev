@@ -62,16 +62,16 @@ const projects: Project[] = [
     live: "",
     image: "/project-snapshots/dllalna.png",
   },
-  {
-    title: "100 Days of SwiftUI",
-    description:
-      "This repository documents my journey of learning SwiftUI by building 19 projects over 100 days, following the 100 Days of SwiftUI challenge.",
-    tech: ["Swift", "SwiftUI"],
-    github: "https://github.com/sardaar-niamotullah/100_Days_Of_SwiftUI",
-    demo: "",
-    live: "",
-    image: "/project-snapshots/hdswiftui2.png",
-  },
+  // {
+  //   title: "100 Days of SwiftUI",
+  //   description:
+  //     "This repository documents my journey of learning SwiftUI by building 19 projects over 100 days, following the 100 Days of SwiftUI challenge.",
+  //   tech: ["Swift", "SwiftUI"],
+  //   github: "https://github.com/sardaar-niamotullah/100_Days_Of_SwiftUI",
+  //   demo: "",
+  //   live: "",
+  //   image: "/project-snapshots/hdswiftui2.png",
+  // },
   {
     title: "Ai Tutor",
     description:
