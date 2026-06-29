@@ -33,10 +33,20 @@ const projects: Project[] = [
     image: "/project-snapshots/verbie_web.png",
   },
   {
+    title: "Easy English Learning",
+    description:
+      "Easy English Learning is a simple and practical app designed for Bangla speakers who want to learn English confidently. The app teaches English lesson by lesson, from basic words and sentences to grammar and daily conversation.",
+    tech: ["Dart", "Flutter", "GetX"],
+    github: "",
+    demo: "",
+    live: "https://play.google.com/store/apps/details?id=com.easy.english.learning.inshirah&pcampaignid=web_share",
+    image: "/project-snapshots/easy_english_learning_app_icon.png",
+  },
+  {
     title: "Simple Expense Tracker",
     description:
       "The Expense Tracker App is a simple yet powerful tool designed to help you manage your personal finances with ease.",
-    tech: ["Dart", "Flutter", "GetX", "Supabase", "SQLite"],
+    tech: ["Dart", "Flutter", "GetX", "SQLite"],
     github: "",
     demo: "",
     live: "https://play.google.com/store/apps/details?id=com.inshirahtech.simple_expense_tracker",
@@ -46,7 +56,7 @@ const projects: Project[] = [
     title: "Floating Tasbih",
     description:
       "This app gives you the ability to put a floating counter on the screen which lets you do zhikr even when you are browsing other apps.",
-    tech: ["Dart", "Flutter", "GetX", "Supabase", "SQLite"],
+    tech: ["Dart", "Flutter", "GetX", "SQLite"],
     github: "",
     demo: "",
     live: "https://play.google.com/store/apps/details?id=com.floating.tasbih.counter.app",
