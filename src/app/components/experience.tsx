@@ -22,7 +22,6 @@ export default function Experience() {
   //   if (totalMonths === 1) return "1 month";
   //   return `${totalMonths} months`;
   // };
-
   // const totalDurationText = getDurationInMonths("2025-07-31");
   return (
     <section id="experience" className="w-full py-24">

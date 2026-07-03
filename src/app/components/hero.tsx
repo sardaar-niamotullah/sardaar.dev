@@ -48,8 +48,8 @@ function TypingText({ text }: { text: string }) {
 function ActionButtons() {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/resume/sardaar_niamotullah-CV.pdf";
-    link.download = "Sardaar_Niamotullah-CV.pdf";
+    link.href = "/resume/Sardaar_Niamotullah_CV.pdf";
+    link.download = "Sardaar_Niamotullah_CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
