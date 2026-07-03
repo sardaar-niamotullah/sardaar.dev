@@ -24,7 +24,6 @@ export default function Experience() {
   // };
 
   // const totalDurationText = getDurationInMonths("2025-07-31");
-
   return (
     <section id="experience" className="w-full py-24">
       <div className="w-full max-w-4xl mx-auto px-4">
@@ -154,7 +153,7 @@ export default function Experience() {
                     {/* Timeline Content */}
                     <div className="flex-1 pb-2">
                       <h4 className="text-[var(--textColor_3)] text-base font-semibold mb-1">
-                        Trainee Mobile App Developer
+                        Intern Mobile App Developer
                       </h4>
                       <p className="text-[var(--textColor_3)] text-sm">
                         Jul 2025 – Aug 2025 • 2 months
@@ -166,7 +165,6 @@ export default function Experience() {
             </div>
           </motion.div>
         </motion.div>
-
         {/* Bottom divider */}
         <Divider />
       </div>
