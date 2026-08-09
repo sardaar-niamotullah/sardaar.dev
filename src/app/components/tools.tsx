@@ -32,6 +32,9 @@ const skillCategories = [
     title: "Frameworks and Libraries",
     skills: [
       "Flutter",
+      "ReactJS",
+      "NextJS",
+      "NestJS",
       "Bloc",
       "http",
       "GetX",

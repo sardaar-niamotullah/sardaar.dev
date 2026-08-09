@@ -6,12 +6,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const phrases = [
-  "Software Engineer - Mobile",
-  "Dart, Flutter, Firebase, Supabase",
+  "Software Engineer (Full Stack + Mobile)",
+  "Dart, JS/TS, Flutter, ReactJS, NextJS, NestJS",
 ];
 
 // ── Shared sub-components ──────────────────────────────────────────────────────
-
 function ProfileImage() {
   return (
     <div
