@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const phrases = [
   "Software Engineer (Full Stack + Mobile)",
-  "Dart, JS/TS, Flutter, ReactJS, NextJS, NestJS",
+  "Dart, TypeScript, Flutter, NextJS, NestJS",
 ];
 
 // ── Shared sub-components ──────────────────────────────────────────────────────
