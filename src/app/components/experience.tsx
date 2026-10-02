@@ -79,7 +79,7 @@ export default function Experience() {
                       Alkawsar
                     </h3>
                     <p className="text-[var(--textColor_2)] text-sm">
-                      Contractual • Remote
+                      Contract • Remote
                     </p>
                   </div>
 
