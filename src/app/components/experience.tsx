@@ -76,6 +76,92 @@ export default function Experience() {
                   {/* Left side - Organization */}
                   <div>
                     <h3 className="text-[var(--textColor_3)] text-lg font-semibold mb-1">
+                      Alkawsar
+                    </h3>
+                    <p className="text-[var(--textColor_2)] text-sm">
+                      Contractual • Remote
+                    </p>
+                  </div>
+
+                  {/* Right side - Dates */}
+                  <div className="text-right text-sm">
+                    <p className="text-[var(--textColor_3)] font-semibold mb-1">
+                      Sep 2026 - Present
+                    </p>
+                    <p className="text-[var(--textColor_2)] text-xs">
+                      2 months
+                      {/* {totalDurationText} */}
+                    </p>
+                  </div>
+                </motion.div>
+
+                {/* Timeline Entries */}
+                <div className="space-y-0">
+                  {/* Current Position */}
+                  <motion.div
+                    variants={itemVariants}
+                    className="flex items-start"
+                  >
+                    {/* Timeline Bullet + Line */}
+                    {/* <div className="flex flex-col items-center mr-4 ml-5">
+                      <div className="w-2 h-2 bg-[var(--themeColor_2)] rounded-full mt-2"></div>
+                      <div className="w-px flex-1 bg-[var(--themeColor_2)]/30 mt-2"></div>
+                    </div> */}
+                    {/* Timeline Bullet */}
+                    <div className="flex flex-col items-center mr-4 ml-5">
+                      <div className="w-2 h-2 bg-[var(--themeColor_2)] rounded-full mt-2"></div>
+                    </div>
+
+                    {/* Timeline Content */}
+                    <div className="flex-1 pb-6">
+                      <h4 className="text-[var(--textColor_3)] text-base font-semibold mb-1">
+                        Software Engineer
+                      </h4>
+                      <p className="text-[var(--themeColor_2)] text-sm mb-3">
+                        [TypeScript, NextJS, Dart, Flutter, Supabase]
+                      </p>
+                      <ul className="list-disc list-inside text-[var(--textColor_3)] text-sm leading-relaxed space-y-2 ml-4">
+                        <li>
+                          Modernizing a 20+ year-old magazine website into a
+                          feature-rich web application using Next.js and modern
+                          web technologies.
+                        </li>
+                        <li>
+                          Leading the development of Alkawsar’s upcoming
+                          cross-platform mobile applications using Flutter for
+                          both iOS and Android
+                        </li>
+                      </ul>
+                    </div>
+                  </motion.div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={cardVariants}
+          className="relative"
+        >
+          <motion.div
+            variants={containerVariants}
+            // className="relative bg-[var(--themeColor_1)]/10 backdrop-blur-sm p-8 border rounded-lg border-[var(--themeColor_2)]/20 hover:border-[var(--themeColor_2)]/30"
+            className="relative p-8"
+          >
+            {/* Experience Container */}
+            <div className="flex gap-5">
+              <div className="flex-1">
+                {/* Organization Header with Dates */}
+                <motion.div
+                  variants={itemVariants}
+                  className="relative mb-4 p-4 px-6 border-l border-r border-[var(--themeColor_2)] bg-[var(--themeColor_1)]/5 flex justify-between items-center"
+                >
+                  {/* Left side - Organization */}
+                  <div>
+                    <h3 className="text-[var(--textColor_3)] text-lg font-semibold mb-1">
                       Inshirah Tech
                     </h3>
                     <p className="text-[var(--textColor_2)] text-sm">

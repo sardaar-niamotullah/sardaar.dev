@@ -23,6 +23,16 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Flutter Tailwind Breakpoints",
+    description:
+      "TailwindCSS style, mobile-first responsive breakpoints for Flutter, with simple getters like context.sm context.md, and more.",
+    tech: ["Dart", "Flutter"],
+    github: "",
+    demo: "",
+    live: "https://pub.dev/packages/tailwind_breakpoints",
+    image: "/project-snapshots/tailwind.png",
+  },
+  {
     title: "Verbie",
     description:
       "The all-in-one visual communication suite that grows with your child. Powered by AI, designed for families, and created by people that care.",

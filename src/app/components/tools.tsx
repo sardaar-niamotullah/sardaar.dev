@@ -32,10 +32,10 @@ const skillCategories = [
     title: "Frameworks and Libraries",
     skills: [
       "Flutter",
-      "ReactJS",
       "NextJS",
       "NestJS",
       "Bloc",
+      "Drift",
       "http",
       "GetX",
       "Get it",
@@ -43,6 +43,9 @@ const skillCategories = [
       "File picker",
       "Image picker",
       "Shared preferences",
+      "Tailwind",
+      "Shadcn",
+      "And many more...",
     ],
     icon: (
       <svg
