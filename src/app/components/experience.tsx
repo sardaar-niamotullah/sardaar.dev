@@ -89,7 +89,7 @@ export default function Experience() {
                       Sep 2026 - Present
                     </p>
                     <p className="text-[var(--textColor_2)] text-xs">
-                      2 months
+                      3 months
                       {/* {totalDurationText} */}
                     </p>
                   </div>
