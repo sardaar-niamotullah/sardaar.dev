@@ -7,7 +7,7 @@ export default function DeleteAccountPage() {
         To request permanent deletion of your Tarkeez account and all associated
         data (projects, sessions, etc.), please email us at{" "}
         <a
-          href="mailto:your-email@domain.com"
+          href="mailto:tarkeez247@gmail.com"
           className="text-blue-600 hover:underline"
         >
           tarkeez247@gmail.com
